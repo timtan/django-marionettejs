@@ -28,8 +28,6 @@ belows are the content of marionettejs.html
     <script src="{% static 'js/json2.js' %}"></script>
     <script src="{% static 'js/underscore.js' %}"></script>
     <script src="{% static 'js/backbone.js' %}"></script>
-    <script src="{% static 'js/backbone.wreqr.js' %}"></script>
-    <script src="{% static 'js/backbone.babysitter.js' %}"></script>
     <script src="{% static 'js/backbone.marionette.js' %}"></script>
 {% else %}
     <script src="{% static 'js/jquery.min.js' %}"></script>
@@ -37,8 +35,6 @@ belows are the content of marionettejs.html
     <script src="{% static 'js/json2.js' %}"></script>
     <script src="{% static 'js/underscore.min.js' %}"></script>
     <script src="{% static 'js/backbone.min.js' %}"></script>
-    <script src="{% static 'js/backbone.wreqr.js' %}"></script>
-    <script src="{% static 'js/backbone.babysitter.js' %}"></script>
     <script src="{% static 'js/backbone.marionette.min.js' %}"></script>
 {% endif %}
 ```

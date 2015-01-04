@@ -24,4 +24,4 @@ Quick start
 
 .. code-block::html
 
-   {% include '_marionettejs.html' %}
+   {% include 'marionettejs.html' %}
